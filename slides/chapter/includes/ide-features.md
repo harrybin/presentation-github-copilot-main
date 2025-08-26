@@ -1,5 +1,5 @@
 ---
-level: 2
+title: GitHub Copilot Features per IDE
 ---
 
 <style scoped>
@@ -122,6 +122,7 @@ The edit feature was once implemented for Visual Studio 2022, it is still docume
 -->
 
 ---
+title: GitHub Copilot Features per IDE 2
 level: 2
 ---
 
@@ -239,6 +240,7 @@ level: 2
 </div>
 
 ---
+title: GitHub Copilot Features per IDE 3
 level: 2
 ---
 

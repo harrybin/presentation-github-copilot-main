@@ -23,6 +23,7 @@
   "dependencies": {
     "@slidev/cli": "^52.1.0",
     "@slidev/client": "^52.1.0",
+    "@slidev/theme-default": "^0.25.0",
     "@xebia/slidev-addon-components-common": "^0.2.2",
     "@xebia/slidev-theme-xebia": "^1.5.0",
     "dotenv": "^16.6.1",
