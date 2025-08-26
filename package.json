@@ -1,0 +1,37 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "github-copilot",
+  "version": "1.1.1",
+  "main": "index.js",
+  "slidev": {
+    "addons": [
+      "slidev-component-progress"
+    ]
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "slidev",
+    "build": "slidev build",
+    "format": "slidev format",
+    "export": "slidev export",
+    "screenshot": "slidev export --format png"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slidev/cli": "^52.1.0",
+    "@slidev/client": "^52.1.0",
+    "@xebia/slidev-addon-components-common": "^0.2.2",
+    "@xebia/slidev-theme-xebia": "^1.5.0",
+    "dotenv": "^16.6.1",
+    "playwright-chromium": "^1.53.0",
+    "seedrandom": "^3.0.5",
+    "slidev-component-progress": "^1.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-slidev": "^1.0.5"
+  }
+}

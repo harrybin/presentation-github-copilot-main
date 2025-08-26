@@ -1,0 +1,93 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀CP Getting Started",
+      "options": {
+        "statusbar": {
+          "color": "#00ffaa"
+        }
+      },
+      "type": "shell",
+      "command": "npx slidev slides_github_copilot_getting_started.md",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Runs the npm start script"
+    },
+    {
+      "label": "🚀CP Deep Dive",
+      "options": {
+        "statusbar": {
+          "color": "#00ffaa"
+        }
+      },
+      "type": "shell",
+      "command": "npx slidev slides_github_copilot_deep_dive.md",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Runs the npm start script"
+    },
+    {
+      "label": "🚀Garage Session",
+      "options": {
+        "statusbar": {
+          "color": "#00ffaa"
+        }
+      },
+      "type": "shell",
+      "command": "npx slidev slides_garage_session.md",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Runs the npm start script"
+    },
+    // {
+    //   "label": "🛣️ start with cloudFlare tunnel",
+    //   "options": {
+    //     "statusbar": {
+    //       "color": "#ff7b00"
+    //     }
+    //   },
+    //   "type": "shell",
+    //   "command": "slidev -- --remote=${input:password} --tunnel",
+    //   "group": {
+    //     "kind": "build",
+    //     "isDefault": true
+    //   },
+    //   "problemMatcher": [],
+    //   "detail": "Runs the npm start script"
+    // },
+    {
+      "label": "[start all]",
+      "options": {
+        "statusbar": {
+          "color": "#ff7b00"
+        }
+      },
+      "type": "shell",
+      "command": "npm start",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Runs the npm start script"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "password",
+      "description": "enter a password:",
+      "default": "pass",
+      "type": "promptString",
+    },
+  ]
+}

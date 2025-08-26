@@ -1,0 +1,32 @@
+{
+  "name": "GitHub Copilot SliDev Presentation",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  "runArgs": [
+    "--name",
+    "devcontainer-gh-copilot-slidev-presentation",
+    "--sysctl", // disable IPv6 as vite server does not support it: workaround for issue with vite in devcontainers: https://github.com/vitejs/vite/issues/16522
+    "net.ipv6.conf.all.disable_ipv6=1"
+  ],
+  "forwardPorts": [
+    3030
+  ],
+	"remoteUser": "node",
+  "mounts": [
+    "source=${localEnv:HOME}/.npmrc,target=/home/node/.npmrc,type=bind", // Mount .npmrc from local machine
+    "source=${localEnv:USERPROFILE}\\.npmrc,target=/home/node/.npmrc,type=bind", // For Windows compatibility
+    "source=${localWorkspaceFolderBasename}-dist,target=${containerWorkspaceFolder}/dist,type=volume",
+    "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+  ],
+  "postCreateCommand": "sudo chown node dist && sudo chown node node_modules && npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antfu.slidev",
+        "esbenp.prettier-vscode",
+        "antfu.unocss",
+        "vue.volar",
+        "actboy168.tasks"
+      ]
+    }
+  }
+}
