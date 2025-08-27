@@ -18,7 +18,7 @@ level: 2
 
 ## AI Pair Programmer
 
-<div class="grid grid-cols-4 gap-4 justify-top items-start mb-4">
+<div class="grid grid-cols-5 justify-top items-start">
   <ImageText image-height="md" image-url="/logo-vsc.png">
     <p>Visual Studio Code</p>
   </ImageText>
@@ -31,8 +31,12 @@ level: 2
     <p>JetBrains</p>
   </ImageText>
 
-  <ImageText image-height="md" image-url="/logo-vim.png">
-    <p>Vim/Neovim</p>
+  <ImageText image-height="md" image-url="/logo-eclipse.png">
+    <p>Eclipse</p>
+  </ImageText>
+
+  <ImageText image-height="md" image-url="/logo-xcode.png">
+    <p>Xcode</p>
   </ImageText>
 </div>
 
@@ -42,10 +46,10 @@ level: 2
 
 - Copilot Code Completion
 - Copilot Chat
-- Modes
-  - Ask
-  - Edit
-  - Agent
+  - Modes
+    - Ask
+    - Edit
+    - Agent
 
 ---
 src: /slides/chapter/includes/ide-features.md
