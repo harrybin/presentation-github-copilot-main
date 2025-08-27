@@ -116,6 +116,8 @@ title: GitHub Copilot Features per IDE
 </div>
 
 <!--
+## Harry
+
 [GitHub Copilot for Vim and Neovim](https://github.com/github/copilot.vim) only supports code completion.
 
 The edit feature was once implemented for Visual Studio 2022, it is still documented, but the UI to trigger it is no longer available. It is not clear if this feature will be reintroduced in the future.

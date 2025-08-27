@@ -56,22 +56,6 @@ src: /slides/chapter/prompt-patterns.md
 src: /slides/chapter/chatmode-files.md
 ---
 
----
-src: /slides/chapter/advanced-prompt-engineering-techniques.md
----
 
 ---
-src: /slides/chapter/mcp-server.md
----
-
----
-src: /slides/chapter/traffic-inspection.md
----
-
----
-src: /slides/questions.md
----
-
----
-src: /slides/thank-you.md
----
+# Pass to Marie
