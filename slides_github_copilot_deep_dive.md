@@ -25,17 +25,12 @@ hideInToc: true
 
 # GitHub Copilot Deep Dive
 
----
-src: /slides/legal.md
----
+
 
 ---
 src: speaker/%SLIDEV_SPEAKER%/speaker.md
 ---
 
----
-src: /slides/xebia.md
----
 
 ---
 src: /slides/agenda.md
