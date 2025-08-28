@@ -27,10 +27,4 @@ routeAlias: index
 <br/>
 <br/>
 
-<a href="/slides_github_copilot_getting_started/" target="_blank">GitHub Copilot Getting Started</a>
-<br/>
-<br/>
-<a href="/slides_github_copilot_deep_dive/" target="_blank">GitHub Copilot Deep Dive</a>
-<br/>
-<br/>
-<a href="/slides_garage_session/" target="_blank">GitHub Copilot Garage Session</a>
+<a href="/slides_github_copilot_deep_dive/" target="_blank">GitHub Copilot Deep Dive - GitHub - Xebia [Marie & Harry]</a>
