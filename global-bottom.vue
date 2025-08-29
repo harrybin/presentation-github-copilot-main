@@ -40,7 +40,7 @@ const meta = slideContext.$slidev.nav.slides[0].meta;
 const glowEnabled = computed(() => (meta.slide as any)?.frontmatter?.glowEnabled);
 
 const distribution = computed(() => (formatter.value.glow || 'full') as Distribution)
-const opacity = computed<number>(() => +(formatter.value.glowOpacity || 0.5))
+const opacity = 0.8;// computed<number>(() => +(formatter.value.glowOpacity || 0.5))
 const hue = computed<number>(() => +(formatter.value.glowHue || 0))
 const seed = computed<string>(() => (formatter.value.glowSeed === 'false' || formatter.value.glowSeed === false)
   ? Date.now().toString()

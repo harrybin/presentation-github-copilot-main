@@ -105,7 +105,7 @@ level: 2
 - [https://mcp.so](https://mcp.so)
 - [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 - [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
-
+- **[https://context7.com/](https://context7.com/)**
 </v-click>
 
 <!--
@@ -119,10 +119,12 @@ Sources to find MCP servers.
 - [mcp.so](https://mcp.so)
 - [MCP servers (Repo)](https://github.com/modelcontextprotocol/servers)
 - [Awesome MCP Servers (Repo)](https://github.com/punkpeye/awesome-mcp-servers)
+- [instructions files for scaffoling projects](https://context7.com/)
 -->
 
 ---
 level: 2
+hide: true
 ---
 
 # Demo: Add GitHub MCP Server
@@ -160,6 +162,7 @@ level: 2
 
 ---
 level: 2
+hide: true
 ---
 
 # Side Note: MCP Server Specification

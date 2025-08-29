@@ -2,6 +2,7 @@
   "slidev.include": [
     "slides_github_copilot_deep_dive.md",
     "slides_github_copilot_getting_started.md",
-    "slides_garage_session.md"
+    "slides_garage_session.md",
+    "slides.md"
   ]
 }
