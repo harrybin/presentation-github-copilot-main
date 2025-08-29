@@ -48,5 +48,3 @@ src: /slides/chapter/chatmode-files.md
 src: /slides/chapter/mcp-server.md
 ---
 
----
-# Pass to Marie
