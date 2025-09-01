@@ -28,7 +28,7 @@ hideInToc: true
 	<tbody>
 		<tr>
 			<td style="border: none;background: transparent;"><img src="/xebia-logo.png" alt="GitHub Logo" style="width: 100px; height: auto"></td>
-			<td style="border: none;background: transparent;">Fullstack | DevOps<br>Consultant | Trainer</td>
+			<td style="border: none;background: transparent;">DevOps | MVP<br>Consultant | Trainer</td>
 		</tr>
 	</tbody>
 </table>
