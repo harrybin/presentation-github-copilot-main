@@ -1,6 +1,7 @@
 ---
 layout: cover-dark
 background: /satelite-large.jpg
+hide: true
 ---
 
 # Model Context Protocol (MCP) Server

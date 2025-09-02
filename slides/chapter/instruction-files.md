@@ -1,6 +1,7 @@
 ---
 layout: cover-dark
 background: /brothers-1-large.jpg
+hide: true
 ---
 
 # Instruction Files

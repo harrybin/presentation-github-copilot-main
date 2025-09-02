@@ -1,6 +1,7 @@
 ---
 layout: cover-dark
 background: /brothers-2-large.jpg
+hide: true
 ---
 
 # Prompt Files

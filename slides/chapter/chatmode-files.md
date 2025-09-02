@@ -1,6 +1,7 @@
 ---
 layout: cover-dark
 background: /deep-dive-heroes-large.png
+hide: true
 ---
 
 # Chatmode Files
