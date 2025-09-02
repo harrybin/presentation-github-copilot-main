@@ -44,6 +44,7 @@ Enhance Copilot's chat responses by providing contextual details
 </v-click>
 
 <!--
+
 [click]
 Instructions applied to chat prompts automatically
 
