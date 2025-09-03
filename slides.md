@@ -23,7 +23,17 @@ background: /deep-dive-heroes-large.png
 hideInToc: true
 ---
 
-# GitHub Copilot Deep Dive
+<img src="/gh-logo.png" style="marginTop:-250px; width: 100px; height: auto" />
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+# GitHub Copilot Ambassador Program for Infineon
+
 
 
 
